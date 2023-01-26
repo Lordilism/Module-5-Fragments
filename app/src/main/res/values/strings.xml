@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Your Carrier</string>
+    <string name="header_txt">Your Ride</string>
+    <string name="your_ride_is">Your ride is</string>
+    <string name="amount_txt">$5.58</string>
+    <string name="name">Hla Maung</string>
+    <string name="rate_txt">Rate your driver</string>
+    <string name="dialog_message">Thanks for your feedback.</string>
+    <string name="dialog_tittle">Notice!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bottom_home">Home</string>
+    <string name="bottom_Notifications">Notifications</string>
+    <string name="bottom_About">About</string>
+
+
+
+</resources>

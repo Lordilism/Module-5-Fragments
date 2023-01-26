@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tabs.tabsActivity.FragmentActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<!--    <fragment-->
+<!--        android:id="@+id/firstFragment"-->
+<!--        android:name="com.example.yourcarrier.tabsFragement.FirstFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="150dp"/>-->
+<!--    <fragment-->
+<!--        android:id="@+id/secondFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_below="@id/firstFragment"-->
+<!--        android:name="com.example.yourcarrier.tabsFragement.SecondFragment" />-->
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/firstFragmentContainerView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/secondFragmentContainerView"
+            android:layout_below="@id/firstFragmentContainerView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
